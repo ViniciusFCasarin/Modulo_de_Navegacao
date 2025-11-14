@@ -1,0 +1,1 @@
+error: [Errno 17] File exists: '/home/vinicius/.local/share/Trash/files/ros2_ws.2/build/robot_bringup/resource/robot_bringup' -> '/home/vinicius/.local/share/Trash/files/ros2_ws.2/install/robot_bringup/share/ament_index/resource_index/packages/robot_bringup'

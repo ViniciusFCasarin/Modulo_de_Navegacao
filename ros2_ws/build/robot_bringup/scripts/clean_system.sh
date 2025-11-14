@@ -1,0 +1,1 @@
+/home/vinicius/ros2_ws/src/robot_bringup/scripts/clean_system.sh

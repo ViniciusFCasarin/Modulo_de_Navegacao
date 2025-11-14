@@ -1,0 +1,19 @@
+[1.612s] Invoking command in '/home/vinicius/ros2_ws/build/robot_bringup': PYTHONPATH=/home/vinicius/ros2_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vinicius/ros2_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vinicius/ros2_ws/build/robot_bringup/build --no-deps symlink_data
+[2.023s] running develop
+[2.243s] running egg_info
+[2.244s] writing robot_bringup.egg-info/PKG-INFO
+[2.244s] writing dependency_links to robot_bringup.egg-info/dependency_links.txt
+[2.244s] writing entry points to robot_bringup.egg-info/entry_points.txt
+[2.245s] writing requirements to robot_bringup.egg-info/requires.txt
+[2.245s] writing top-level names to robot_bringup.egg-info/top_level.txt
+[2.247s] reading manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[2.248s] writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[2.250s] running build_ext
+[2.251s] Creating /home/vinicius/ros2_ws/install/robot_bringup/lib/python3.10/site-packages/robot-bringup.egg-link (link to .)
+[2.252s] Installing odom_monitor.py script to /home/vinicius/ros2_ws/install/robot_bringup/lib/robot_bringup
+[2.252s] Installing odom_tf_publisher script to /home/vinicius/ros2_ws/install/robot_bringup/lib/robot_bringup
+[2.252s] Installing save_map.py script to /home/vinicius/ros2_ws/install/robot_bringup/lib/robot_bringup
+[2.253s] 
+[2.253s] Installed /home/vinicius/ros2_ws/build/robot_bringup
+[2.253s] running symlink_data
+[2.329s] Invoked command in '/home/vinicius/ros2_ws/build/robot_bringup' returned '0': PYTHONPATH=/home/vinicius/ros2_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vinicius/ros2_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vinicius/ros2_ws/build/robot_bringup/build --no-deps symlink_data

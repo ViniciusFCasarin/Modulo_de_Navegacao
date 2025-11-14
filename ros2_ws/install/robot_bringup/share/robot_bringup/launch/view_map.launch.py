@@ -1,0 +1,1 @@
+/home/vinicius/ros2_ws/build/robot_bringup/launch/view_map.launch.py

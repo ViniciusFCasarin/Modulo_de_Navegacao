@@ -1,0 +1,6 @@
+[console_scripts]
+navigate_to_goal = robot_bringup.scripts.navigate_to_goal:main
+odom_monitor.py = robot_bringup.scripts.odom_monitor:main
+odom_tf_publisher = robot_bringup.scripts.odom_tf_publisher:main
+save_map.py = robot_bringup.scripts.save_map:main
+

@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.000753] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000835] (-) JobUnselected: {'identifier': 'pose_bringup'}
+[0.000856] (-) JobUnselected: {'identifier': 'ros_gz'}
+[0.000885] (-) JobUnselected: {'identifier': 'ros_gz_bridge'}
+[0.000903] (-) JobUnselected: {'identifier': 'ros_gz_image'}
+[0.000921] (-) JobUnselected: {'identifier': 'ros_gz_interfaces'}
+[0.000937] (-) JobUnselected: {'identifier': 'ros_gz_sim'}
+[0.000954] (-) JobUnselected: {'identifier': 'ros_gz_sim_demos'}
+[0.000971] (-) JobUnselected: {'identifier': 'test_ros_gz_bridge'}
+[0.000991] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict()}
+[0.001012] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[0.099701] (-) TimerEvent: {}
+[0.200028] (-) TimerEvent: {}
+[0.300417] (-) TimerEvent: {}
+[0.400820] (-) TimerEvent: {}
+[0.501266] (-) TimerEvent: {}
+[0.574272] (robot_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/vinicius/ros2_ws/build/robot_bringup/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/vinicius/ros2_ws/build/robot_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vinicius', 'PT8HOME': '/opt/pt', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vinicius', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2221', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ea3404a78fc43c517d90c5e869124b06', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/vinicius/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'vinicius', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vinicius', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vinicius-IdeaPad-3-15ALC6:@/tmp/.ICE-unix/2221,unix/vinicius-IdeaPad-3-15ALC6:/tmp/.ICE-unix/2221', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/35dfabe1_32d5_445e_8b71_2fcd53d2ac49', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.108', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vinicius/ros2_ws/install/robot_bringup:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vinicius/ros2_ws/build/robot_bringup', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ea3404a78fc43c517d90c5e869124b06', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vinicius/ros2_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vinicius/ros2_ws/install/robot_bringup/lib/python3.10/site-packages:/home/vinicius/ros2_ws/build/robot_bringup:/home/vinicius/ros2_ws/install/robot_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.601408] (-) TimerEvent: {}
+[0.701793] (-) TimerEvent: {}
+[0.796536] (robot_bringup) StdoutLine: {'line': b'running develop\n'}
+[0.801918] (-) TimerEvent: {}
+[0.902235] (-) TimerEvent: {}
+[0.936285] (robot_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[0.936561] (robot_bringup) StdoutLine: {'line': b'writing robot_bringup.egg-info/PKG-INFO\n'}
+[0.936763] (robot_bringup) StdoutLine: {'line': b'writing dependency_links to robot_bringup.egg-info/dependency_links.txt\n'}
+[0.937191] (robot_bringup) StdoutLine: {'line': b'writing entry points to robot_bringup.egg-info/entry_points.txt\n'}
+[0.937353] (robot_bringup) StdoutLine: {'line': b'writing requirements to robot_bringup.egg-info/requires.txt\n'}
+[0.937499] (robot_bringup) StdoutLine: {'line': b'writing top-level names to robot_bringup.egg-info/top_level.txt\n'}
+[0.938558] (robot_bringup) StdoutLine: {'line': b"reading manifest file 'robot_bringup.egg-info/SOURCES.txt'\n"}
+[0.939519] (robot_bringup) StdoutLine: {'line': b"writing manifest file 'robot_bringup.egg-info/SOURCES.txt'\n"}
+[0.940632] (robot_bringup) StdoutLine: {'line': b'running build_ext\n'}
+[0.940846] (robot_bringup) StdoutLine: {'line': b'Creating /home/vinicius/ros2_ws/install/robot_bringup/lib/python3.10/site-packages/robot-bringup.egg-link (link to .)\n'}
+[0.941542] (robot_bringup) StdoutLine: {'line': b'Installing odom_monitor.py script to /home/vinicius/ros2_ws/install/robot_bringup/lib/robot_bringup\n'}
+[0.941711] (robot_bringup) StdoutLine: {'line': b'Installing odom_tf_publisher script to /home/vinicius/ros2_ws/install/robot_bringup/lib/robot_bringup\n'}
+[0.941913] (robot_bringup) StdoutLine: {'line': b'\n'}
+[0.941991] (robot_bringup) StdoutLine: {'line': b'Installed /home/vinicius/ros2_ws/build/robot_bringup\n'}
+[0.942048] (robot_bringup) StdoutLine: {'line': b'running symlink_data\n'}
+[0.942203] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/resource/robot_bringup -> /home/vinicius/ros2_ws/install/robot_bringup/share/ament_index/resource_index/packages\n'}
+[0.942295] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/package.xml -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup\n'}
+[0.942471] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/launch/teleop_keyboard.launch.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/launch\n'}
+[0.942554] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/launch/robot_state.launch.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/launch\n'}
+[0.942654] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/launch/cmd_vel.launch.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/launch\n'}
+[0.942714] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/launch/gazebo.launch.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/launch\n'}
+[0.942834] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/launch/full_system.launch.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/launch\n'}
+[0.942890] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/launch/mapping.launch.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/launch\n'}
+[0.942947] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/launch/gazebo_world.launch.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/launch\n'}
+[0.943063] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/launch/slam.launch.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/launch\n'}
+[0.943142] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/config/slam_view.rviz -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/config\n'}
+[0.943195] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/config/mapper_params_online_async.yaml -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/config\n'}
+[0.943259] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/config/mapping_config.rviz -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/config\n'}
+[0.943388] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/worlds/robot.urdf -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/worlds\n'}
+[0.943444] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/worlds/main.sdf -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/worlds\n'}
+[0.943534] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/worlds/wall.model.sdf -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/worlds\n'}
+[0.943586] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/worlds/robot.model.sdf -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/worlds\n'}
+[0.943694] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/scripts/clean_system.sh -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/scripts\n'}
+[0.943771] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/scripts/test_lidar.sh -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/scripts\n'}
+[0.943886] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/scripts/launch_gazebo.sh -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/scripts\n'}
+[0.943974] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/scripts/odom_monitor.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/scripts\n'}
+[0.944036] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/scripts/diagnose_slam.sh -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/scripts\n'}
+[0.944149] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/scripts/odom_tf_publisher.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/scripts\n'}
+[0.944212] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/models/wall/model.sdf -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/models/wall\n'}
+[0.944309] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/models/Robot/model.sdf -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/models/Robot\n'}
+[0.980301] (robot_bringup) CommandEnded: {'returncode': 0}
+[0.991494] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 0}
+[0.992245] (-) EventReactorShutdown: {}

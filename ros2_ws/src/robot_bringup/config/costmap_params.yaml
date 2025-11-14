@@ -1,0 +1,9 @@
+# Costmap Parameters for Nav2
+# Este arquivo será configurado quando implementarmos navegação autônoma
+
+# Placeholder - arquivo vazio por enquanto
+# Quando implementar navegação, configure:
+# - global_costmap
+# - local_costmap
+# - obstacle_layer
+# - inflation_layer

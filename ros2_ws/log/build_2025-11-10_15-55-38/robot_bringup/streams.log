@@ -1,0 +1,43 @@
+[1.431s] Invoking command in '/home/vinicius/ros2_ws/build/robot_bringup': PYTHONPATH=/home/vinicius/ros2_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vinicius/ros2_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vinicius/ros2_ws/build/robot_bringup/build --no-deps symlink_data --force
+[2.064s] running develop
+[2.477s] running egg_info
+[2.477s] writing robot_bringup.egg-info/PKG-INFO
+[2.477s] writing dependency_links to robot_bringup.egg-info/dependency_links.txt
+[2.478s] writing entry points to robot_bringup.egg-info/entry_points.txt
+[2.478s] writing requirements to robot_bringup.egg-info/requires.txt
+[2.478s] writing top-level names to robot_bringup.egg-info/top_level.txt
+[2.482s] reading manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[2.485s] writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[2.488s] running build_ext
+[2.488s] Creating /home/vinicius/ros2_ws/install/robot_bringup/lib/python3.10/site-packages/robot-bringup.egg-link (link to .)
+[2.490s] Installing odom_monitor.py script to /home/vinicius/ros2_ws/install/robot_bringup/lib/robot_bringup
+[2.491s] Installing odom_tf_publisher script to /home/vinicius/ros2_ws/install/robot_bringup/lib/robot_bringup
+[2.491s] 
+[2.492s] Installed /home/vinicius/ros2_ws/build/robot_bringup
+[2.492s] running symlink_data
+[2.492s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/resource/robot_bringup -> /home/vinicius/ros2_ws/install/robot_bringup/share/ament_index/resource_index/packages
+[2.492s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/package.xml -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup
+[2.492s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/launch/teleop_keyboard.launch.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+[2.493s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/launch/robot_state.launch.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+[2.493s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/launch/cmd_vel.launch.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+[2.493s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/launch/gazebo.launch.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+[2.494s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/launch/full_system.launch.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+[2.494s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/launch/mapping.launch.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+[2.494s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/launch/gazebo_world.launch.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+[2.494s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/launch/slam.launch.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+[2.495s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/config/slam_view.rviz -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/config
+[2.495s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/config/mapper_params_online_async.yaml -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/config
+[2.495s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/config/mapping_config.rviz -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/config
+[2.495s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/worlds/robot.urdf -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/worlds
+[2.496s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/worlds/main.sdf -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/worlds
+[2.496s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/worlds/wall.model.sdf -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/worlds
+[2.496s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/worlds/robot.model.sdf -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/worlds
+[2.496s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/scripts/clean_system.sh -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/scripts
+[2.497s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/scripts/test_lidar.sh -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/scripts
+[2.497s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/scripts/launch_gazebo.sh -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/scripts
+[2.497s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/scripts/odom_monitor.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/scripts
+[2.497s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/scripts/diagnose_slam.sh -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/scripts
+[2.498s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/scripts/odom_tf_publisher.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/scripts
+[2.498s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/models/wall/model.sdf -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/models/wall
+[2.498s] symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/models/Robot/model.sdf -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/models/Robot
+[2.562s] Invoked command in '/home/vinicius/ros2_ws/build/robot_bringup' returned '0': PYTHONPATH=/home/vinicius/ros2_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vinicius/ros2_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vinicius/ros2_ws/build/robot_bringup/build --no-deps symlink_data --force
