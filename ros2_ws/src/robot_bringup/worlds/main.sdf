@@ -94,6 +94,34 @@
       </spot>
     </light>
 
+    <model name = 'cilindro_azul'>
+    <!-- Cilindro Azul -->
+    <link name='cilindro_azul'>
+      <pose>3 1.7 0.8 0 0 0</pose>
+      <collision name='collision_cilindro_azul'>
+        <geometry>
+          <cylinder>
+            <radius>0.8</radius>
+            <length>1.6</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='visual_cilindro_azul'>
+        <geometry>
+          <cylinder>
+            <radius>0.8</radius>
+            <length>1.6</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0 0 1 1</ambient>
+          <diffuse>0 0 1 1</diffuse>
+          <specular>0.3 0.3 0.3 1</specular>
+        </material>
+      </visual>
+    </link>
+    </model>
+
     <!-- Cenário -->
     <include>
       <uri>file:///home/vinicius/ros2_ws/src/robot_bringup/models/wall/Cenario2.sdf</uri>

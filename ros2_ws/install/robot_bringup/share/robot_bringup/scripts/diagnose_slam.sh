@@ -1,1 +1,0 @@
-/home/vinicius/ros2_ws/build/robot_bringup/scripts/diagnose_slam.sh

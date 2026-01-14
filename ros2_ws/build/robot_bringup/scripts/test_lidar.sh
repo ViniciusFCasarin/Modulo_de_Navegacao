@@ -1,1 +1,0 @@
-/home/vinicius/ros2_ws/src/robot_bringup/scripts/test_lidar.sh

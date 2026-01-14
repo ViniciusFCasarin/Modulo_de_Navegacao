@@ -17,6 +17,7 @@ launch/view_map.launch.py
 models/Robot/model.sdf
 models/wall/Cenario1.sdf
 models/wall/Cenario2.sdf
+models/wall/Cenario3.sdf
 models/wall/model.sdf
 resource/robot_bringup
 robot_bringup/__init__.py
@@ -28,12 +29,9 @@ robot_bringup.egg-info/requires.txt
 robot_bringup.egg-info/top_level.txt
 robot_bringup.egg-info/zip-safe
 scripts/clean_system.sh
-scripts/diagnose_slam.sh
-scripts/launch_gazebo.sh
 scripts/navigate_to_goal.py
 scripts/odom_monitor.py
 scripts/odom_tf_publisher.py
 scripts/save_map.py
-scripts/test_lidar.sh
 worlds/main.sdf
 worlds/robot.urdf
