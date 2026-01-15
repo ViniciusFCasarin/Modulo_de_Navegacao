@@ -92,11 +92,13 @@ def main(args=None):
         # Nome padrão com timestamp
         from datetime import datetime
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        map_name = f'/home/vinicius/ros2_ws/maps/map_{timestamp}'
+        workspace = os.path.expanduser('~/ros2_ws')
+        map_name = f'{workspace}/maps/map_{timestamp}'
     
     # Se não tem caminho completo, adicionar diretório maps
     if not map_name.startswith('/'):
-        map_name = f'/home/vinicius/ros2_ws/maps/{map_name}'
+        workspace = os.path.expanduser('~/ros2_ws')
+        map_name = f'{workspace}/maps/{map_name}'
     
     node = MapSaver(map_name)
     

@@ -124,12 +124,12 @@
 
     <!-- Cenário -->
     <include>
-      <uri>file:///home/vinicius/ros2_ws/src/robot_bringup/models/Cenarios/Cenario2.sdf</uri>
+      <uri>file://../models/Cenarios/Cenario2.sdf</uri>
     </include>
 
     <!-- Robô - Referencia o modelo em /models/Robot/model.sdf -->
     <include>
-      <uri>file:///home/vinicius/ros2_ws/src/robot_bringup/models/Robot/model.sdf</uri>
+      <uri>file://../models/Robot/model.sdf</uri>
       <!-- cenario 1
       <pose>-3.9 -5.8 0.0 0 0 0.0</pose>-->
 

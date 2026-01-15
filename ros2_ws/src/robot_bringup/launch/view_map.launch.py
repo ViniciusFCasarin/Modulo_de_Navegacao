@@ -11,10 +11,13 @@ def generate_launch_description():
     ros2 launch robot_bringup view_map.launch.py map:=/caminho/para/mapa.yaml
     """
     
+    # Caminho padrão do mapa
+    default_map = os.path.expanduser('~/ros2_ws/maps/mapa.yaml')
+    
     # Arquivo de mapa
     declare_map_arg = DeclareLaunchArgument(
         'map',
-        default_value='/home/vinicius/ros2_ws/maps/mapa.yaml',
+        default_value=default_map,
         description='Caminho completo para o arquivo .yaml do mapa'
     )
     
