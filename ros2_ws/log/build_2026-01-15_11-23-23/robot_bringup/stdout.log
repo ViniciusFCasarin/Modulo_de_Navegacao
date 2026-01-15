@@ -36,22 +36,20 @@ symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/config/view_map.
 symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/config/mapper_params_online_async.yaml -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/config
 symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/config/mapping_config.rviz -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/config
 symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/config/goals.json -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/config
-symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/config/costmap_params.yaml -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/config
 symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/config/nav2_params.yaml -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/config
 creating /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/worlds
 symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/worlds/robot.urdf -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/worlds
 symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/worlds/main.sdf -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/worlds
 creating /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/scripts
 symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/scripts/navigate_to_goal.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/scripts
-symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/scripts/clean_system.sh -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/scripts
 symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/scripts/save_map.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/scripts
 symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/scripts/odom_monitor.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/scripts
 symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/scripts/odom_tf_publisher.py -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/scripts
 creating /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/models
-creating /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/models/wall
-symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/models/wall/Cenario2.sdf -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/models/wall
-symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/models/wall/model.sdf -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/models/wall
-symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/models/wall/Cenario3.sdf -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/models/wall
-symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/models/wall/Cenario1.sdf -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/models/wall
+creating /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/models/Cenarios
+symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/models/Cenarios/Cenario2.sdf -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/models/Cenarios
+symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/models/Cenarios/model.sdf -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/models/Cenarios
+symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/models/Cenarios/Cenario3.sdf -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/models/Cenarios
+symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/models/Cenarios/Cenario1.sdf -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/models/Cenarios
 creating /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/models/Robot
 symbolically linking /home/vinicius/ros2_ws/build/robot_bringup/models/Robot/model.sdf -> /home/vinicius/ros2_ws/install/robot_bringup/share/robot_bringup/models/Robot

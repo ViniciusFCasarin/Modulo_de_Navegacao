@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 """
-Script para salvar o mapa gerado pelo SLAM Toolbox.
-Usa os serviços serialize_map e save_map.
-
-Uso:
+Salvar o mapa gerado pelo SLAM Toolbox:
     ros2 run robot_bringup save_map.py [nome_do_mapa]
     
 Exemplo:
@@ -53,7 +50,7 @@ class MapSaver(Node):
         rclpy.spin_until_future_complete(self, future)
         
         if future.result() is not None:
-            self.get_logger().info(f'✓ Mapa salvo com sucesso: {self.map_name}.pgm e {self.map_name}.yaml')
+            self.get_logger().info(f'Mapa salvo com sucesso: {self.map_name}.pgm e {self.map_name}.yaml')
             return True
         else:
             self.get_logger().error('Erro ao salvar mapa!')
@@ -78,7 +75,7 @@ class MapSaver(Node):
         rclpy.spin_until_future_complete(self, future)
         
         if future.result() is not None:
-            self.get_logger().info(f'✓ Pose graph serializado: {self.map_name}.posegraph')
+            self.get_logger().info(f'Pose graph serializado: {self.map_name}.posegraph')
             return True
         else:
             self.get_logger().error('Erro ao serializar pose graph!')
@@ -112,7 +109,7 @@ def main(args=None):
         
         if success_map and success_serialize:
             print(f'\n{"="*60}')
-            print(f'✓ MAPA SALVO COM SUCESSO!')
+            print(f'MAPA SALVO COM SUCESSO!')
             print(f'{"="*60}')
             print(f'Arquivos gerados:')
             print(f'  • {map_name}.yaml       (metadados do mapa)')
@@ -123,7 +120,7 @@ def main(args=None):
             print(f'  ros2 launch robot_bringup navigation.launch.py map:={map_name}.yaml')
             print(f'{"="*60}\n')
         else:
-            print('\n✗ Erro ao salvar mapa!')
+            print('\nErro ao salvar mapa!')
             
     except KeyboardInterrupt:
         pass

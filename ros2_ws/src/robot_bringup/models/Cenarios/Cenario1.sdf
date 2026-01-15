@@ -4,7 +4,7 @@
       <static>true</static>
       <pose>0 0 0 0 0 0</pose>
 
-      <!-- PAREDE NORTE (superior completa) -->
+      <!-- PAREDE NORTE -->
       <link name='parede_norte'>
           <pose>0 13.5 2.0 0 0 0</pose>
           <visual name='visual'>
@@ -28,7 +28,7 @@
           </collision>
       </link>
 
-      <!-- PAREDE LESTE (direita completa) -->
+      <!-- PAREDE LESTE -->
       <link name='parede_leste'>
           <pose>15 0 2.0 0 0 0</pose>
           <visual name='visual'>
@@ -52,7 +52,7 @@
           </collision>
       </link>
 
-      <!-- PAREDE OESTE (esquerda completa) -->
+      <!-- PAREDE OESTE -->
       <link name='parede_oeste'>
           <pose>-15 0 2.0 0 0 0</pose>
           <visual name='visual'>
@@ -172,7 +172,7 @@
           </collision>
       </link>
 
-      <!-- PAREDE HORIZONTAL CENTRO (corredor central com aberturas) -->
+      <!-- PAREDE HORIZONTAL CENTRO -->
       <link name='horizontal_centro'>
           <pose>-3 0 2.0 0 0 0</pose>
           <visual name='visual'>
@@ -196,7 +196,7 @@
           </collision>
       </link>
 
-      <!-- PAREDE HORIZONTAL DIREITA (corredor central com aberturas) -->
+      <!-- PAREDE HORIZONTAL DIREITA -->
       <link name='horizontal_dir'>
           <pose>10.5 0 2.0 0 0 0</pose>
           <visual name='visual'>
@@ -222,7 +222,7 @@
 
         <!-- ==== Moveis ==== -->
 
-      <!-- MESA AMARELA (retângulo baixo) - MOVIDA PROPORCIONALMENTE -->
+      <!-- MESA AMARELA -->
       <link name='mesa_amarela'>
           <pose>-9.75 -6.9 0.85 0 0 0</pose>
           <visual name='visual'>
@@ -246,7 +246,7 @@
           </collision>
       </link>
 
-      <!-- CILINDRO PRETO (em pé) - MOVIDO PROPORCIONALMENTE -->
+      <!-- CILINDRO PRETO -->
       <link name='cilindro_preto'>
           <pose>-1.5 -1.5 0.75 0 0 0</pose>
           <visual name='visual'>
@@ -272,7 +272,7 @@
           </collision>
       </link>
 
-      <!-- MESA PRETA (retângulo baixo) - MOVIDA PROPORCIONALMENTE -->
+      <!-- MESA PRETA -->
       <link name='mesa_preta'>
           <pose>9 -1.5 1 0 0 0</pose>
           <visual name='visual'>
@@ -296,7 +296,7 @@
           </collision>
       </link>
 
-      <!-- ARMÁRIO BEGE (retângulo alto) - MOVIDO PROPORCIONALMENTE -->
+      <!-- ARMÁRIO BEGE -->
       <link name='armario_bege'>
           <pose>13.2 7.5 1.25 0 0 0</pose>
           <visual name='visual'>
@@ -320,7 +320,7 @@
           </collision>
       </link>
 
-      <!-- CILINDRO MARROM 1 (em pé) - MOVIDO PROPORCIONALMENTE -->
+      <!-- CILINDRO MARROM 1 -->
       <link name='cilindro_marrom_1'>
           <pose>-7 5 0.8 0 0 0</pose>
           <visual name='visual'>
@@ -346,7 +346,7 @@
           </collision>
       </link>
 
-      <!-- CILINDRO MARROM 2 (em pé) - MOVIDO PROPORCIONALMENTE -->
+      <!-- CILINDRO MARROM 2 -->
       <link name='cilindro_marrom_2'>
           <pose>-8.5 7.5 0.8 0 0 0</pose>
           <visual name='visual'>

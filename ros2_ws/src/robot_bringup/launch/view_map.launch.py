@@ -7,22 +7,18 @@ import os
 
 def generate_launch_description():
     """
-    Launch file para visualizar mapa salvo no RViz.
-    
-    Uso:
+    Visualizar mapa salvo no RViz:
     ros2 launch robot_bringup view_map.launch.py map:=/caminho/para/mapa.yaml
-    
-    Exemplo:
-    ros2 launch robot_bringup view_map.launch.py map:=/home/vinicius/ros2_ws/maps/ambiente_teste.yaml
     """
     
-    # Argumentos
+    # Arquivo de mapa
     declare_map_arg = DeclareLaunchArgument(
         'map',
         default_value='/home/vinicius/ros2_ws/maps/mapa.yaml',
         description='Caminho completo para o arquivo .yaml do mapa'
     )
     
+    # Argumento de tempo do simulador
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
     declare_use_sim_time_cmd = DeclareLaunchArgument(
         'use_sim_time',

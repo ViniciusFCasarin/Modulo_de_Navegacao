@@ -76,7 +76,7 @@
       </visual>
     </link>
 
-    <!-- Parede Lateral Superior (corredor horizontal) -->
+    <!-- Parede Lateral Superior -->
     <link name='parede_lateral_superior'>
       <pose>5.5 12 2 0 0 0</pose>
       <collision name='collision_parede_lateral_superior'>
@@ -100,7 +100,7 @@
       </visual>
     </link>
 
-    <!-- Parede Lateral Inferior (corredor horizontal) -->
+    <!-- Parede Lateral Inferior -->
     <link name='parede_lateral_inferior'>
       <pose>5.5 8 2 0 0 0</pose>
       <collision name='collision_parede_lateral_inferior'>
@@ -124,7 +124,7 @@
       </visual>
     </link>
 
-    <!-- Parede Final (fecha corredor horizontal) -->
+    <!-- Parede Final -->
     <link name='parede_final'>
       <pose>10.5 10 2 0 0 0</pose>
       <collision name='collision_parede_final'>

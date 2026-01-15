@@ -9,9 +9,9 @@ echo ""
 
 # Verificar se é ROS2 Humble
 if [ -d "/opt/ros/humble" ]; then
-    echo "✓ ROS2 Humble detectado"
+    echo "ROS2 Humble detectado"
 else
-    echo "✗ ROS2 Humble não encontrado!"
+    echo "ROS2 Humble não encontrado!"
     exit 1
 fi
 
@@ -99,15 +99,15 @@ PACKAGES=(
 echo "Pacotes instalados:"
 for pkg in "${PACKAGES[@]}"; do
     if dpkg -l | grep -q "$pkg"; then
-        echo "  ✓ $pkg"
+        echo "  $pkg"
     else
-        echo "  ✗ $pkg (FALHOU)"
+        echo "  $pkg (FALHOU)"
     fi
 done
 
 echo ""
 echo "=================================================="
-echo "✓ INSTALAÇÃO CONCLUÍDA!"
+echo "  INSTALAÇÃO CONCLUÍDA!"
 echo "=================================================="
 echo ""
 echo "Próximos passos:"
