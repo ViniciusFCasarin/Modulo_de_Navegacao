@@ -8,6 +8,7 @@ import json
 import sys
 import threading
 from math import cos, sin
+import os
 
 class NavigationGoalClient(Node):
     def __init__(self, goals_file):
@@ -126,7 +127,8 @@ def main():
     rclpy.init()
     
     # Caminho do arquivo JSON
-    goals_file = '/home/vinicius/ros2_ws/src/robot_bringup/config/goals.json'
+    workspace = os.path.expanduser('~/ros2_ws')
+    goals_file = f'{workspace}/src/robot_bringup/config/goals.json'
     
     try:
         node = NavigationGoalClient(goals_file)

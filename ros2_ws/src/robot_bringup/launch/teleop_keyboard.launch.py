@@ -6,9 +6,7 @@ import os
 
 def generate_launch_description():
     """
-    Launch file para controle manual do robô via teclado.
-    
-    Uso:
+    Controle manual do robô:
     Terminal 1: ros2 launch robot_bringup gazebo_world.launch.py
     Terminal 2: ros2 launch robot_bringup mapping.launch.py
     Terminal 3: ros2 launch robot_bringup teleop_keyboard.launch.py
@@ -27,7 +25,7 @@ def generate_launch_description():
         description='Use simulation (Gazebo) clock'
     )
 
-    # Bridge ROS <-> Gazebo para /cmd_vel (necessário se não estiver rodando em outro launch)
+    # Bridge ROS <-> Gazebo para /cmd_vel
     bridge_node = Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',
@@ -39,11 +37,7 @@ def generate_launch_description():
         output='screen'
     )
 
-    # Nó de teleoperação via teclado com velocidades REDUZIDAS
-    # Executa com parâmetros inline para velocidades baixas:
-    # - linear: 0.18 m/s (equivalente a 0.2 com 1x diminuição)
-    # - angular: 0.27 rad/s (equivalente a 0.3 com 1x diminuição)
-    # Use q/z no teclado para aumentar/diminuir conforme necessário
+    # Nó para operar velocidades do robô (argumentos de velocidades REDUZIDAS)
     teleop_node = ExecuteProcess(
         cmd=[
             'xterm', '-e',

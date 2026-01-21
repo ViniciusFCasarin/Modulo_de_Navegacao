@@ -12,7 +12,6 @@ def generate_launch_description():
     slam_params_file = os.path.join(pkg_share, 'config', 'mapper_params_online_async.yaml')
     rviz_config_file = os.path.join(pkg_share, 'config', 'mapping_config.rviz')
     
-
     # Lê o URDF do robô
     with open(urdf_file, 'r') as infp:
         robot_desc = infp.read()
@@ -34,7 +33,7 @@ def generate_launch_description():
         parameters=[{
             'use_sim_time': use_sim_time,
             'robot_description': robot_desc,
-            'publish_frequency': 30.0,  # ✅ Sincronizado com odom (30Hz)
+            'publish_frequency': 30.0,  # Manter sincronizado com odom (30Hz)
         }]
     )
 
@@ -64,7 +63,6 @@ def generate_launch_description():
         ],
         parameters=[{
             'use_sim_time': use_sim_time,
-            # ✅ QoS otimizado: sem cache de TF antigas (só última mensagem)
             'qos_overrides./tf.publisher.durability': 'volatile',
             'qos_overrides./tf.publisher.reliability': 'reliable',
             'qos_overrides./tf.publisher.history': 'keep_last',

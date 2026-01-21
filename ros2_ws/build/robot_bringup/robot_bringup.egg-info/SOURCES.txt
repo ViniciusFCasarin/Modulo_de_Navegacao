@@ -1,7 +1,6 @@
 package.xml
 setup.cfg
 setup.py
-config/costmap_params.yaml
 config/goals.json
 config/mapper_params_online_async.yaml
 config/mapping_config.rviz
@@ -14,10 +13,11 @@ launch/mapping.launch.py
 launch/navigation_launch.py
 launch/teleop_keyboard.launch.py
 launch/view_map.launch.py
+models/Cenarios/Cenario1.sdf
+models/Cenarios/Cenario2.sdf
+models/Cenarios/Cenario3.sdf
+models/Cenarios/model.sdf
 models/Robot/model.sdf
-models/wall/Cenario1.sdf
-models/wall/Cenario2.sdf
-models/wall/model.sdf
 resource/robot_bringup
 robot_bringup/__init__.py
 robot_bringup.egg-info/PKG-INFO
@@ -27,13 +27,9 @@ robot_bringup.egg-info/entry_points.txt
 robot_bringup.egg-info/requires.txt
 robot_bringup.egg-info/top_level.txt
 robot_bringup.egg-info/zip-safe
-scripts/clean_system.sh
-scripts/diagnose_slam.sh
-scripts/launch_gazebo.sh
 scripts/navigate_to_goal.py
 scripts/odom_monitor.py
 scripts/odom_tf_publisher.py
 scripts/save_map.py
-scripts/test_lidar.sh
 worlds/main.sdf
 worlds/robot.urdf

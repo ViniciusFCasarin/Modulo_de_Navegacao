@@ -1,7 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version='1.10'>
 <model name='Robot' canonical_link='base_link'>
-      <!-- ✅ CORRIGIDO: Modelo começa no chão (z=0) -->
       <pose>0 0 0 0 0 0</pose>
 
       <!-- BASE_FOOTPRINT - Projeção do robô no chão (z=0) -->
@@ -73,7 +72,7 @@
           </inertia>
         </inertial>
 
-        <!-- Visualização da "torre" do LIDAR -->
+        <!-- Visualização da haste do LIDAR -->
         <visual name='lidar_tower'>
           <pose>0 0 -0.4 0 0 0</pose>
           <geometry>
@@ -104,7 +103,7 @@
           </material>
         </visual>
 
-        <!-- LIDAR/SCAN - PARÂMETROS MANTIDOS INALTERADOS -->
+        <!-- LIDAR/SCAN -->
         <sensor name='gpu_lidar' type='gpu_lidar'>
           <pose relative_to='lidar_link'>0 0 0 0 0 0</pose>
           <topic>lidar</topic>
@@ -169,7 +168,6 @@
               <length>0.3</length>
             </cylinder>
           </geometry>
-          <!--Color of the link-->
           <material>
             <ambient>0.0 0.0 0 1</ambient>
             <diffuse>0.0 0.0 0 1</diffuse>
@@ -207,7 +205,6 @@
               <length>0.3</length>
             </cylinder>
           </geometry>
-          <!--Color of the link-->
           <material>
             <ambient>0.0 0.0 0 1</ambient>
             <diffuse>0.0 0.0 0 1</diffuse>
@@ -348,11 +345,11 @@
         <left_joint>left_wheel_joint</left_joint>
         <right_joint>right_wheel_joint</right_joint>
 
-        <!-- ✅ CORRIGIDO: Parâmetros físicos REAIS do modelo -->
+        <!-- Parâmetros físicos REAIS do modelo -->
         <wheel_separation>1.7</wheel_separation>
         <wheel_radius>0.5</wheel_radius>
 
-        <!-- ✅ CORRIGIDO: Frequência sincronizada com TF (30Hz) -->
+        <!-- Manter Frequência sincronizada com TF (30Hz) -->
         <odom_publish_frequency>30</odom_publish_frequency>
 
         <!-- Tópicos e frames -->
@@ -382,7 +379,7 @@
         filename="gz-sim-pose-publisher-system"
         name="gz::sim::systems::PosePublisher">
         <publish_frequency>30.0</publish_frequency> 
-        <publish_all>false</publish_all> <!-- ✅ CORRIGIDO: Só o Robot, não links internos -->
+        <publish_all>false</publish_all> 
         <topic>model/Robot/pose</topic> 
       </plugin>
 

@@ -16,7 +16,7 @@ setup(
         (os.path.join('share', package_name, 'config'), glob('config/*')),
         (os.path.join('share', package_name, 'worlds'), glob('worlds/*')),
         (os.path.join('share', package_name, 'scripts'), glob('scripts/*')),
-        (os.path.join('share', package_name, 'models', 'wall'), glob('models/wall/*')),
+        (os.path.join('share', package_name, 'models', 'Cenarios'), glob('models/Cenarios/*')),
         (os.path.join('share', package_name, 'models', 'Robot'), glob('models/Robot/*')),
     ],
     install_requires=['setuptools'],
